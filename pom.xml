@@ -77,6 +77,7 @@
 							<inputSpec>
 								${project.basedir}/src/main/resources/petstore.yaml
 							</inputSpec>
+							<openapiGeneratorIgnoreList>OpenApiGeneratorApplication.java</openapiGeneratorIgnoreList>
 							<generatorName>spring</generatorName>
 							<apiPackage>com.example.demo.api</apiPackage>
 							<modelPackage>com.example.demo.api.model</modelPackage>
